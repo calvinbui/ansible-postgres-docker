@@ -16,4 +16,4 @@
     env:
       POSTGRES_USER: "{{ postgres_docker_user }}"
       POSTGRES_PASSWORD: "{{ postgres_docker_password }}"
-      POSTGRES_DB:  "{{ postgres_docker_database }}"
+      POSTGRES_DB: "{{ postgres_docker_database }}"

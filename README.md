@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/calvinbui/ansible-postgres-docker.svg?branch=master)](https://travis-ci.com/calvinbui/ansible-postgres-docker)
-
 # Ansible Postgres Docker
 
 Run Postgres inside a Docker container
@@ -11,6 +9,10 @@ N/A
 ## Role Variables
 
 `postgres_docker_tag`: Docker tag found at https://hub.docker.com/_/postgres
+
+`postgres_docker_network`: Dictionary of Docker networks following https://docs.ansible.com/ansible/latest/modules/docker_container_module.html. Leave empty `[]` to not use it
+
+`postgres_docker_exposed_ports`: List of exposed ports. Leave empty `[]` to not use it
 
 `postgres_docker_data_dir`: Where to store data
 

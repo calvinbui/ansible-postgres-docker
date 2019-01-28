@@ -5,6 +5,9 @@
   vars:
     pip_install_packages:
       - name: docker
+    docker_networks:
+      - name: moleculenetwork
   roles:
     - calvinbui.ansible_docker
     - calvinbui.ansible_pip
+    - calvinbui.ansible_docker_network

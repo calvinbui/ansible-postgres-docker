@@ -1,3 +1,9 @@
+[![Build Status](https://travis-ci.com/calvinbui/ansible-postgres-docker.svg?branch=master)](https://travis-ci.com/calvinbui/ansible-postgres-docker)
+![GitHub release](https://img.shields.io/github/release/calvinbui/ansible-postgres-docker.svg)
+![Ansible Quality Score](https://img.shields.io/ansible/quality/36585.svg)
+![Ansible Role](https://img.shields.io/ansible/role/d/36585.svg)
+
+
 # Ansible Postgres Docker
 
 Run Postgres inside a Docker container

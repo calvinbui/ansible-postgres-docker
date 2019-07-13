@@ -3,6 +3,7 @@
   hosts: all
   become: true
   vars:
+    ansible_python_interpreter: /usr/bin/python3
     postgres_docker_exposed_ports:
       - 5455:5432
   roles:

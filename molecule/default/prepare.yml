@@ -5,6 +5,7 @@
   vars:
     pip_install_packages:
       - name: docker
+        executable: pip3
     docker_networks:
       - name: moleculenetwork
   roles:
